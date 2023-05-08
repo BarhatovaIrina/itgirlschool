@@ -71,3 +71,18 @@
 .comment_text {
     margin: 20px 0;
 }
+
+.check_name {
+    border: 2px solid rgb(72, 72, 190);
+    background-color: black;
+    /* color: black; */
+    width: 20px;
+    height: 20px;
+    margin: 0 20px 0 10px;
+}
+
+.check_name:checked {
+    border: 2px solid rgb(72, 72, 190);
+    background: rgb(72, 72, 190);
+
+}
